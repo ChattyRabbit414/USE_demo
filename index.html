@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Demos</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff; /* Light blue background */
+            color: #333;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff; /* White background for container */
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #4CAF50; /* Green title */
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .section-title {
+            text-align: center;
+            color: #E91E63; /* Pink for main section titles */
+            font-size: 2em;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #E91E63;
+        }
+        .audio-demo {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+        .audio-demo:last-child {
+            border-bottom: none;
+        }
+        .audio-demo h2 {
+            margin-bottom: 10px;
+            color: #2196F3; /* Blue section titles */
+            font-size: 1.8em;
+        }
+        .audio-demo audio {
+            width: 100%;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            background-color: #f9f9f9; /* Light grey background for audio player */
+            border: 1px solid #ddd;
+        }
+        .audio-demo p {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .image-container {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .image-container img {
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        .image-container h3 {
+            font-size: 1.5em;
+            color: #FFC107; /* Yellow image title */
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Audio Demos</h1>
+
+        <h1 class="section-title">Universal Demos</h1>
+
+        <div class="image-container">
+            <img src="demo/universal/2mix/spectrogram.jpg" alt="Universal 2mix Spectrogram">
+            <h3>Universal 2mix Spectrogram</h3>
+        </div>
+        <div class="audio-demo">
+            <h2>Universal 2mix Mixture</h2>
+            <audio controls>
+                <source src="demo/universal/2mix/Mix.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="audio-demo">
+            <h2>Universal 2mix Predicted Source 1</h2>
+            <audio controls>
+                <source src="demo/universal/2mix/p1.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="audio-demo">
+            <h2>Universal 2mix Predicted Source 2</h2>
+            <audio controls>
+                <source src="demo/universal/2mix/p2.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="audio-demo">
+            <h2>Universal 2mix Ground Truth Source 1</h2>
+            <audio controls>
+                <source src="demo/universal/2mix/s1.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="audio-demo">
+            <h2>Universal 2mix Ground Truth Source 2</h2>
+            <audio controls>
+                <source src="demo/universal/2mix/s2.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        ---
+
+        <h1 class="section-title">Speech-Music Demos</h1>
+
+        <div class="image-container">
+            <img src="demo/speech_music/2mix/spectrogram.jpg" alt="Speech-Music 2mix Spectrogram">
+            <h3>Speech-Music 2mix Spectrogram</h3>
+        </div>
+        <div class="audio-demo">
+            <h2>Speech-Music 2mix Mixture</h2>
+            <audio controls>
+                <source src="demo/speech_music/2mix/Mix.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="audio-demo">
+            <h2>Speech-Music 2mix Predicted Source 1</h2>
+            <audio controls>
+                <source src="demo/speech_music/2mix/p1.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="audio-demo">
+            <h2>Speech-Music 2mix Predicted Source 2</h2>
+            <audio controls>
+                <source src="demo/speech_music/2mix/p2.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="audio-demo">
+            <h2>Speech-Music 2mix Ground Truth Source 1</h2>
+            <audio controls>
+                <source src="demo/speech_music/2mix/s1.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="audio-demo">
+            <h2>Speech-Music 2mix Ground Truth Source 2</h2>
+            <audio controls>
+                <source src="demo/speech_music/2mix/s2.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        ---
+
+        <h1 class="section-title">TSE Demos</h1>
+
+        <div class="image-container">
+            <img src="demo/TSE/2mix/spectrogram.jpg" alt="TSE 2mix Spectrogram">
+            <h3>TSE 2mix Spectrogram</h3>
+        </div>
+        <div class="audio-demo">
+            <h2>TSE 2mix Mixture</h2>
+            <audio controls>
+                <source src="demo/TSE/2mix/Mix.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="audio-demo">
+            <h2>TSE 2mix Predicted Source 1</h2>
+            <audio controls>
+                <source src="demo/TSE/2mix/p1.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="audio-demo">
+            <h2>TSE 2mix Predicted Source 2</h2>
+            <audio controls>
+                <source src="demo/TSE/2mix/p2.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="audio-demo">
+            <h2>TSE 2mix Ground Truth Source 1</h2>
+            <audio controls>
+                <source src="demo/TSE/2mix/s1.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="audio-demo">
+            <h2>TSE 2mix Ground Truth Source 2</h2>
+            <audio controls>
+                <source src="demo/TSE/2mix/s2.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        </div>
+</body>
+</html>
